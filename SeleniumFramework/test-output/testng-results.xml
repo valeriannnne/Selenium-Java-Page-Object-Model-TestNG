@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-03T17:24:18 CST" name="Suite" finished-at="2024-09-03T17:24:43 CST" duration-ms="25035">
+    <groups>
+    </groups>
+    <test started-at="2024-09-03T17:24:18 CST" name="ChromeTest" finished-at="2024-09-03T17:24:26 CST" duration-ms="8035">
+      <class name="qa.tests.Testsase1">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.Testsase1@4b29d1d2]" started-at="2024-09-03T17:24:18 CST" name="beforeTestMethod" finished-at="2024-09-03T17:24:18 CST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testsase1@4b29d1d2]" started-at="2024-09-03T17:24:18 CST" name="beforeMethodMethod" finished-at="2024-09-03T17:24:22 CST" duration-ms="4145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testsase1.sampleMethodForEnteringCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="sampleMethodForEnteringCredentials()[pri:0, instance:qa.tests.Testsase1@4b29d1d2]" started-at="2024-09-03T17:24:22 CST" name="sampleMethodForEnteringCredentials" finished-at="2024-09-03T17:24:26 CST" duration-ms="3223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethodForEnteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testsase1@4b29d1d2]" started-at="2024-09-03T17:24:26 CST" name="afterMethod" finished-at="2024-09-03T17:24:26 CST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleMethodForEnteringCredentials status=SUCCESS method=Testsase1.sampleMethodForEnteringCredentials()[pri:0, instance:qa.tests.Testsase1@4b29d1d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testsase1@4b29d1d2]" started-at="2024-09-03T17:24:26 CST" name="afterTest" finished-at="2024-09-03T17:24:26 CST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa.tests.Testsase1 -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-09-03T17:24:26 CST" name="FirefoxTest" finished-at="2024-09-03T17:24:36 CST" duration-ms="9491">
+      <class name="qa.tests.Testsase1">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.Testsase1@609e8838]" started-at="2024-09-03T17:24:26 CST" name="beforeTestMethod" finished-at="2024-09-03T17:24:26 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testsase1@609e8838]" started-at="2024-09-03T17:24:26 CST" name="beforeMethodMethod" finished-at="2024-09-03T17:24:31 CST" duration-ms="4483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testsase1.sampleMethodForEnteringCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="sampleMethodForEnteringCredentials()[pri:0, instance:qa.tests.Testsase1@609e8838]" started-at="2024-09-03T17:24:31 CST" name="sampleMethodForEnteringCredentials" finished-at="2024-09-03T17:24:35 CST" duration-ms="4288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethodForEnteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testsase1@609e8838]" started-at="2024-09-03T17:24:35 CST" name="afterMethod" finished-at="2024-09-03T17:24:36 CST" duration-ms="686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleMethodForEnteringCredentials status=SUCCESS method=Testsase1.sampleMethodForEnteringCredentials()[pri:0, instance:qa.tests.Testsase1@609e8838] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testsase1@609e8838]" started-at="2024-09-03T17:24:36 CST" name="afterTest" finished-at="2024-09-03T17:24:36 CST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa.tests.Testsase1 -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2024-09-03T17:24:36 CST" name="EdgeTest" finished-at="2024-09-03T17:24:43 CST" duration-ms="7488">
+      <class name="qa.tests.Testsase1">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.Testsase1@43df23d3]" started-at="2024-09-03T17:24:36 CST" name="beforeTestMethod" finished-at="2024-09-03T17:24:36 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testsase1@43df23d3]" started-at="2024-09-03T17:24:36 CST" name="beforeMethodMethod" finished-at="2024-09-03T17:24:39 CST" duration-ms="3114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testsase1.sampleMethodForEnteringCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="sampleMethodForEnteringCredentials()[pri:0, instance:qa.tests.Testsase1@43df23d3]" started-at="2024-09-03T17:24:39 CST" name="sampleMethodForEnteringCredentials" finished-at="2024-09-03T17:24:42 CST" duration-ms="3111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleMethodForEnteringCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testsase1@43df23d3]" started-at="2024-09-03T17:24:42 CST" name="afterMethod" finished-at="2024-09-03T17:24:43 CST" duration-ms="1234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sampleMethodForEnteringCredentials status=SUCCESS method=Testsase1.sampleMethodForEnteringCredentials()[pri:0, instance:qa.tests.Testsase1@43df23d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testsase1@43df23d3]" started-at="2024-09-03T17:24:43 CST" name="afterTest" finished-at="2024-09-03T17:24:43 CST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa.tests.Testsase1 -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
